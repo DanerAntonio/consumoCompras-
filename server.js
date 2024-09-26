@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Purchase = require('./purchaseModel'); // Asegúrate de que la ruta sea correcta
+const Purchase = require('./purchaseModel'); 
+require('dotenv').config();// Asegúrate de que la ruta sea correcta
 
 const app = express();
 const PORT = process.env.PORT || 3000;
